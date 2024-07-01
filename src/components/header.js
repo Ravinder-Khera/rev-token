@@ -14,7 +14,7 @@ function Header() {
             className="navbar-brand"
             target="_blank"
             rel="noreferrer"
-            href="https://www.centralisx.io/"
+            href="/"
           >
             <Logo />
           </a>

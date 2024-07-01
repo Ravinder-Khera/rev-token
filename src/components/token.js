@@ -63,7 +63,7 @@ function Token() {
     }
     setIsClicked(true);
     const tokenAddress = contracts.platformToken.address;
-    const tokenSymbol = "CXC";
+    const tokenSymbol = "REV";
     const tokenDecimals = 18;
     const tokenImage = "https://path-to-token-image.com/token.png";
 
@@ -556,7 +556,7 @@ function Token() {
                       ? removeTrailingZeros(Number(amount).toFixed(3))
                       : ""} */}
                   </b>{" "}
-                  CXC{" "}
+                  REV{" "}
                 </span>
                 <div
                   className="tokenBoxBg w-100"
@@ -646,13 +646,13 @@ function Token() {
                             ? removeTrailingZeros(Number(amount).toFixed(3))
                             : ""} */}
                         </b>{" "}
-                        CXC{" "}
+                        REV{" "}
                       </span>
                     </div>
                   </div>
                 </div>
                 <p className="addCXC" onClick={addTokenToWallet}>
-                  <span>+</span>Add CXC to Wallet
+                  <span>+</span>Add REV to Wallet
                 </p>
               </div>
             </div>

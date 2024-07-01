@@ -30,7 +30,7 @@ const sepoliaWithRPC = {
 };
 
 export const config = getDefaultConfig({
-  appName: "Centralis X",
+  appName: "REV Token",
   projectId: process.env.REACT_APP_PROJECT_ID,
   chains: [mainnet, sepoliaWithRPC],
   wallets: [
