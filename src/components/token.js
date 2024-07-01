@@ -413,7 +413,8 @@ function Token() {
         <div className="tokenCard">
           <div className="tokenBox ">
             <div className="tokenLogo">
-              <img src={RevGif} alt="REV" className="img-fluid" />
+              <div className="tokenLogoImg"></div>
+              {/* <img src={RevGif} alt="REV" className="img-fluid" /> */}
             </div>
             <div className="tokenStage">
               <div className="tokenStageName">
@@ -653,33 +654,8 @@ function Token() {
                 <p className="addCXC" onClick={addTokenToWallet}>
                   <span>+</span>Add CXC to Wallet
                 </p>
-                {/* <div className="tokenBoxBg tokenBgWidth " style={{ width: "100%" }}>
-                  <div className="tokenAmount" style={{ gap: "12px" }}>
-                    <div className="tokenChainName barBox flex-nowrap">
-                      <SiteLogo />
-                      <div className="heading fw-bold" style={{ fontSize: "14px" }}>
-                        {" "}
-                        CXC
-                      </div>
-                    </div>
-                    <h3
-                      className="amountInUsdt mx-auto"
-                      style={{ fontSize: `${usdtFontSize}px` }}
-                    >
-                      {amount
-                        ? Number(amount) % 1 !== 0
-                          ? Number(amount).toFixed(2)
-                          : parseInt(amount)
-                        : ""}
-                    </h3>
-                  </div>
-                </div> */}
               </div>
             </div>
-            {/* <div className='tokenHeading d-grid' style={{ marginBottom: '15px' }}>
-                        <span>Amount accumulated at each stage.</span>
-                        <span>Stage 4 prices will increase to $0.0004</span>
-                    </div> */}
             <div
               className="tokenHeading d-flex flex-column align-items-center"
               style={{ gap: "16px" }}

@@ -1,6 +1,7 @@
 import React from "react";
 import { ReactComponent as Logo } from "../assets/siteHeaderLogo.svg";
-import { CiHamburgerMd } from "../assets/svg";
+import { CiHamburgerMd, TelegramIcon, YoutubeIcon } from "../assets/svg";
+import { ReactComponent as TwitterLogo } from "../assets/twitterRev.svg";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 import { ConnectBtn } from "./connectButton";
 
@@ -26,7 +27,7 @@ function Header() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <CiHamburgerMd width="48" height="48" style={{ color: "#fff" }} />
+             <span class="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0 navBtns">
@@ -38,6 +39,11 @@ function Header() {
                 <ConnectBtn />
               </li>
             </ul>
+            <div className="socialIcons d-lg-none">
+              <a href="/#" target="_blank"><TelegramIcon /></a>
+              <a href="/#" target="_blank"><YoutubeIcon /></a>
+              <a href="/#" target="_blank"><TwitterLogo /></a>
+            </div>
           </div>
         </div>
       </nav>
