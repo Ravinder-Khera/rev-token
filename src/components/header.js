@@ -15,7 +15,7 @@ function Header() {
             target="_blank"
             rel="noreferrer"
             href="/"
-          >
+          > 
             <Logo />
           </a>
           <button
