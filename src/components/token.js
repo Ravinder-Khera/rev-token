@@ -417,7 +417,7 @@ function Token() {
               {/* <img src={RevGif} alt="REV" className="img-fluid" /> */}
             </div>
             <div className="tokenStage">
-              <div className="tokenStageName">
+              <div className="tokenStageName" style={{marginTop:'-30px'}}>
                 Stage{" "}
                 {stageInfo && stageInfo.stage ? Number(stageInfo.stage) - 1 : "-"}
               </div>
@@ -523,7 +523,7 @@ function Token() {
               </div>
               <div
                 className="tokenBoxBg"
-                style={{ padding: "22px 10px", marginTop: "20px" }}
+                style={{ padding: "11px 10px", marginTop: "20px" }}
               >
                 <div className="countDownDiv">
                   {time ? (
@@ -546,7 +546,7 @@ function Token() {
               </div>
               <div
                 className="d-flex flex-wrap align-items-center"
-                style={{ gap: "7px", marginTop: "20px", marginBottom: "15px" }}
+                style={{ gap: "7px", marginTop: "20px", marginBottom: "5px" }}
               >
                 <span className="mobileAmount">
                   You will get{" "}
@@ -701,7 +701,7 @@ function Token() {
               </div>
             </div>
             <div className="tokenStage">
-              <div className="tokenStageName" style={{fontSize:'14px',marginTop:'27px'}}>
+              <div className="tokenStageName" style={{fontSize:'14px',marginTop:'21px'}}>
                 Disclaimer
               </div>
             </div>

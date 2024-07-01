@@ -1,6 +1,6 @@
 import tokenAbi from "./abis/token.json";
 import tokenSaleAbi from "./abis/tokenSale.json";
-
+ 
 const testnetContracts = {
   paymentToken: {
     address: "0x8E43892e41FffD48365971a0039dC4C7c27965CC",
@@ -8,16 +8,16 @@ const testnetContracts = {
     decimals: 6,
   },
   platformToken: {
-    address: "0x9aC9fB784ceaF67f68f2F91739b42A9148254eC2",
+    address: "0x68C673Bdaa4b3Bf4ABA5842B5c8e10c4C7c3a6b1",
     abi: tokenAbi,
     decimals: 18,
   },
   tokenSale: {
-    address: "0x4dfd3Ee4c8040fD2Bfc6a0aBCfAF40914e640d48",
+    address: "0xeE06f6ca8Ea7365f04B154c09fB3f86C42B30999",
     abi: tokenSaleAbi,
   },
 };
-
+ 
 const mainnetContracts = {
   paymentToken: {
     address: "0xdac17f958d2ee523a2206206994597c13d831ec7",
@@ -34,7 +34,7 @@ const mainnetContracts = {
     abi: tokenSaleAbi,
   },
 };
-
+ 
 export const getContracts = () => {
   if (process.env.REACT_APP_NETWORK === "MAINNET") {
     return mainnetContracts;
